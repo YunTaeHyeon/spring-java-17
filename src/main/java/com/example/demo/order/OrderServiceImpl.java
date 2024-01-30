@@ -4,7 +4,9 @@ import com.example.demo.discount.DiscountPolicy;
 import com.example.demo.discount.FixDiscountPolicy;
 import com.example.demo.discount.RateDiscountPolicy;
 import com.example.demo.member.*;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderServiceImpl implements OrderService {
     //private final MemberRepository memberRepository = new
     //       MemoryMemberRepository();
