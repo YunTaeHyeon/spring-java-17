@@ -12,6 +12,7 @@ import com.example.demo.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+
 @Configuration //CGLIB 기술 사용하여 싱글톤을 보장 -> 이거 없으면 스프링 빈은 되지만 싱글톤 안됨
 public class AppConfig {
     @Bean
